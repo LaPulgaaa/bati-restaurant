@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zeyada&display=swap" rel="stylesheet">
+
+	<title>bootstrap starter page</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script> 
+<header>
+	<nav id="header-nav" class="navbar navbar-sm  navbar-expand-lg">
+	 <div class="container">
+	 	<div class="navbar-header">
+	 		<a href="index.html" class="float-start d-none d-md-block">
+	 			<div id="logo-img" alt="logo-image"> </div>
+	 		</a>
+	 		   <div class="navbar-brand" >
+	 			    <a href="index.html"><h1>BATI RESTAURANTS</h1></a>
+	 		   </div>
+	 		   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" >
+      			<span class="navbar-toggler-icon" ></span>
+   				 </button>
+    			
+	 	</div>
+
+	 	<div id="collapsable-nav" class="collapse navbar-collapse" >
+	 	<ul class="navbar-nav ms-auto nav-pills" id="nav-list" >
+	 		<li class="nav-item" >
+	 			<a class="nav-link " href="menu-categories.html" ><span class="bi bi-search" ></span><br class="d-none d-md-block">menu</a>
+	 		</li>
+	 		<li class="nav-item">
+	 			<a class="nav-link" href="#"><span class="bi bi-info-circle" ></span><br class="d-none d-md-block">About</a>
+	 		</li>
+	 		<li class="nav-item">
+	 			<a class="nav-link" href="#"><span class="bi bi-award"  aria-hidden="true" ></span><br class="d-none d-md-block">Awards</a>
+	 		</li>
+	 		<li id="phone" class="d-xs-none">
+	 			<a href="tel:8528023366"><span>8528023366</span></a><div>Contact-Us</div>
+	 		</li>
+	 	</ul>
+		</div>
+	 </div>
+	</nav>
+</header>
+
+
+  <div id="main-content" class="container">
+  	<h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+  	<div class="text-center">Lunch is not served until after 12:30pm.</div>
+
+  	<section class="row">
+  		<div class="menu-item-tile col-md-6">
+  			<div class="row">
+  				<div class="col-sm-5">
+  					<div class="menu-item-photo">
+  						<div>V1</div>
+  						<img src="menu-images/chilli-paneer(1).jpg" class="img-fluid" alt="item" width="250" height="150">
+  					</div>
+  					<div class="menu-item-price">$10<span>(pint)</span>$12.50<span>(quart)</span></div>
+  				</div>
+  				<div class="col-sm-7 menu-item-discription">
+  					<h3 class="menu-item-title">Chilli-paneer</h3>
+  					<p class="menu-item-details">originated at my house,its my favorite dish.</p>
+  				</div>
+  			</div>
+  			<hr class="d-block d-sm-none">
+  		</div>
+  		<div class="menu-item-tile col-md-6">
+  			<div class="row">
+  				<div class="col-sm-5">
+  					<div class="menu-item-photo">
+  						<div>V1</div>
+  						<img class="img-fluid" src="menu-images/paneer-butter-masala(1).jpg"  alt="item" width="250" height="150">
+  					</div>
+  					<div class="menu-item-price">$10<span>(pint)</span>$12.50<span>(quart)</span></div>
+  				</div>
+  				<div class="col-sm-7 menu-item-discription">
+  					<h3 class="menu-item-title">Paneer-Butter Masala</h3>
+  					<p class=menu-item-details>originated at my house,its my favorite dish.</p>
+  				</div>
+  			</div>
+  			<hr class="d-block d-sm-none">
+  		</div>
+  	</section>
+
+ 	</div>
+
+
+
+
+ 	<footer class="card">
+  		<div class="container">
+  			<div class="row">
+  				<section id="hours" class="col-sm-4">
+  					<span>Hours:</span><br>
+  					Sun-Thurs: 11:15am - 10:00pm<br>
+          			Fri: 11:15am - 2:30pm<br>
+          			
+          			<hr class="d-block d-sm-none">
+  				</section>
+  				<section id="address" class="col-sm-4">
+          			<span>Address:</span><br>
+          			Indra Nagar,RDA complex<br>
+          			Raebareli, UP 229001
+          			<p>* Delivery can be made through either zomato or swiggy app.As per today, we don't have an personal delivery services.</p>
+          			<hr class="d-block d-sm-none">
+        		</section>
+        		<section id="testimonials" class="col-sm-4">
+        		  <p>"Best for birthday parties!!"</p>
+        		  <p>"Nothing like bati in raebareli.Its chilli potato is my fav!!"</p>
+        		  <hr class="d-block d-sm-none">
+        		</section>
+        		 <div class="text-center">&copy; Copyright Bati Restaurant </div>
+  			</div>
+  		</div>
+  		
+  	</footer>
+
+
+
+
+
+</body>
+</html>
